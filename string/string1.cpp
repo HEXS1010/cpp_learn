@@ -9,5 +9,11 @@ int main() {
     string fullName = firstName + " " + lastName;
     cout << fullName << endl;
 
+    // atau bisa menggunakan append() ini akan memindahkan string ke belakang
+
+    string name = "anjay";
+    name.append(" mabar");
+    cout << name << endl;
+
     return 0;
 }
