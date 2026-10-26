@@ -19,4 +19,6 @@ int main() {
 
     cout << "bilangan terbesar 1: " << max1 << endl;
     cout << "bilangan terbesar 2: " << max2 << endl;
+
+    return 0;
 }
