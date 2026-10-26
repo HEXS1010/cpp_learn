@@ -17,7 +17,4 @@ int main() {
 
 
     cout << "mean: " << mean << endl;
-    
-
-    
 }
