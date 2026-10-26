@@ -1,6 +1,8 @@
 #include <iostream> 
 using namespace std;
 
+// tipe data
+// jumlah element tetap 
 
 int main() {
    string greeting[2] = {"halo", "sip"};
