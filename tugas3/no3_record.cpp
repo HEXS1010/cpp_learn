@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 
@@ -21,7 +22,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         if (m[i].ipk <= 2.5) {
-            cout << "nama mahasiswa: " << m[i].nama << " status: peringantan" << endl;
+            cout << "nama mahasiswa: " << m[i].nama << " | status: peringantan" << endl;
             total_mahasiswa_peringatan++;
         }
     }
