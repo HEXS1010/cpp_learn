@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct book {
+struct buku {
     string judul;
     string penulis;
     int tahun;
@@ -10,7 +10,7 @@ struct book {
 
 
 int main() {
-    book b[3] = {
+    buku b[3] = {
         {"anjay_mabar", "budiono", 2020, 100000},
         {"makan_bang", "siregar", 2019, 50000},
         {"bang_makan", "kapal_laut", 2020, 200000}
