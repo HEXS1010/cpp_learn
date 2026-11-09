@@ -28,14 +28,19 @@ int main() {
 
     int total_medali_emas = 0;
     int medali_emas_terbanyak = 0;
+    int minimal_1_medali_emas = 0;
 
     for (int i = 0; i < 5; i++) {
         total_medali_emas += a[i].jumlah_medali_emas;
         if (medali_emas_terbanyak > a[i].jumlah_medali_emas) {
             medali_emas_terbanyak = i;
         }
+        if (a[i].jumlah_medali_emas >= 1) {
+            minimal_1_medali_emas++;
+        }
     }
 
-    cout << " Total medali emas seluruh cabang: " << total_medali_emas << endl;
-    cout << " medali emas terbanyak: " << a[medali_emas_terbanyak].jumlah_medali_emas << " " << " atas nama: " << a[medali_emas_terbanyak].nama << endl;
+    cout << "Total medali emas seluruh cabang: " << total_medali_emas << endl;
+    cout << "medali emas terbanyak: " << a[medali_emas_terbanyak].jumlah_medali_emas << " " << " atas nama: " << a[medali_emas_terbanyak].nama << endl;
+    cout << "jumlah atlet yang memiliki minimal 1 medali emas: " << minimal_1_medali_emas << endl;
 }
