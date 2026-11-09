@@ -22,11 +22,16 @@ int main() {
         {"permen", 1000, 40}
     };
 
+    int total_produk_kurang_dari_10 = 0;
+
     for (int i = 0; i < 5; i++) {
         if (p[i].stok < 10) {
             cout << " nama produk: " << p[i].nama << " jumlah stok: " << p[i].stok << endl;
+            total_produk_kurang_dari_10++;
         };
     };
+
+    cout << " jumlah produk yang kurang dari 10: " << total_produk_kurang_dari_10 << endl;
 
 
 }
