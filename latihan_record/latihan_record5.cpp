@@ -32,7 +32,7 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         total_medali_emas += a[i].jumlah_medali_emas;
-        if (medali_emas_terbanyak > a[i].jumlah_medali_emas) {
+        if (a[i].jumlah_medali_emas > a[medali_emas_terbanyak].jumlah_medali_emas) {
             medali_emas_terbanyak = i;
         }
         if (a[i].jumlah_medali_emas >= 1) {
