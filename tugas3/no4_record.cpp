@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct Alamat {
@@ -20,7 +21,7 @@ int main() {
     };
 
     for (int i = 0; i < 3; i++) {
-        cout << "nama mahasiswa: " << m[i].nama << " kota asal: " << m[i].alamat.kota << endl;  
+        cout << "nama mahasiswa: " << m[i].nama << " | kota asal: " << m[i].alamat.kota << endl;  
     }
 
     
