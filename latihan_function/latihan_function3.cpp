@@ -22,7 +22,7 @@ void hitungMinMax(int a[], int n, int &mn, int &mx) {
 };
 
 int main() {
-    int d[5] = {10, 20, 30, 40, 50};
+    int d[5] = {20, 30, 60, 40, 50};
 
     int mn, mx;
 
