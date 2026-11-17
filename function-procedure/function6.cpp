@@ -13,8 +13,9 @@ void tambah(int n) {
 int main() {
     tambah(3);
     tambah(4);
-    
+
     cout << total << endl;
+    cout << hasil << endl; // error karena beda scope
 
     return 0;
 }
