@@ -1,12 +1,19 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int luasPersegi(int s) {
-  return s * s;
+
+/*
+    Buatlah procedure bernama perkenalan yang menerima parameter nama dan umur. 
+    Procedure tersebut harus menampilkan nama dan umur seseorang
+*/
+
+void perkenalan(string nama, int umur) {
+    cout << "nama: " << nama << endl;
+    cout << "umur: " << umur << endl;
 };
 
 int main() {
-  int hasil = luasPersegi(3);
-
-  cout << "hasil dari sisi persegi: " << hasil << endl;
+    perkenalan("aswa", 30);
+    return 0;
 }
