@@ -2,13 +2,13 @@
 using namespace std;
 
 char nilaiMahasiswa(int a) {
-    if (a >= 85) {
+    if (a > 85) {
         int hasil = 'A';
         return hasil;
-    } else if (a >= 70) { 
+    } else if (a > 70) { 
         int hasil = 'B';
         return hasil;
-    } else if (a >= 60) {
+    } else if (a > 60) {
         int hasil = 'C';
         return hasil;
     } else {
