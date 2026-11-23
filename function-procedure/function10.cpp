@@ -2,6 +2,9 @@
 using namespace std;
 
 char nilaiMahasiswa(int a) {
+    if (a < 0 || a > 100) {
+        return 'N';    
+    }
     if (a > 85) {
         int hasil = 'A';
         return hasil;
@@ -18,11 +21,16 @@ char nilaiMahasiswa(int a) {
 };
 
 void tampilNilaiMahasiswa(char hasil) {
-    cout << "nilai akhir: " << hasil << endl;
+    if (hasil == 'N') {
+        cout << "angka harus dari 0-100" << endl;
+
+    } else {
+        cout << "nilai akhir: " << hasil << endl;
+    }
 };
 
 int main() {
-    int nilai = 70;
+    int nilai = 120;
 
     char nilaiAkhir = nilaiMahasiswa(nilai);
     tampilNilaiMahasiswa(nilaiAkhir);
