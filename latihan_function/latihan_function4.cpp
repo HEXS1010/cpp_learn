@@ -6,7 +6,7 @@ using namespace std;
     tambah(a);. Berapa a? Bagaimana jika parameternya int &x?
 */
 
-void tambah(int &x) {
+void tambah(int x) {
     x += 5;
 }
 
